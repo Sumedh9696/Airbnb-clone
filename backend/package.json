@@ -1,0 +1,31 @@
+{
+  "name": "airbnb-clone-backend",
+  "version": "1.0.0",
+  "description": "Airbnb Clone Full Stack Capstone Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seeders/seed.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "airbnb",
+    "express",
+    "sequelize",
+    "jwt",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
